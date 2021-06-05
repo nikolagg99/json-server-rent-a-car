@@ -1,0 +1,133 @@
+{
+  "vehicle": [
+    {
+      "id": "62838134-ebc4-4e7b-96f6-416484e80c50",
+      "brand": "BMW",
+      "model": "325D",
+      "constructionYear": "2008",
+      "vehicleType": "luxury",
+      "fueltype": "diesel",
+      "numberOfSeats": 5,
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/3/37/BMW_325d_E90_%2813746268845%29.jpg",
+      "pricePerDay": 20,
+      "count": 4
+    },
+    {
+      "id": "62838134-ebc4-4e7b-96f6-416484e80c51",
+      "brand": "Mercedes-Benz",
+      "model": "E320",
+      "constructionYear": "2008",
+      "vehicleType": "luxury",
+      "fueltype": "petrol",
+      "numberOfSeats": 5,
+      "picture": "https://image-cdn.beforward.jp/files/pictures/201304/115968/BF121494_1.jpg",
+      "pricePerDay": 20,
+      "count": 2
+    },
+    {
+      "id": "62838134-ebc4-4e7b-96f6-416484e80c53",
+      "brand": "BMW",
+      "model": "535",
+      "constructionYear": "2015",
+      "vehicleType": "luxury",
+      "fueltype": "petrol",
+      "numberOfSeats": 5,
+      "picture": "https://i.ytimg.com/vi/Ke3b5-AqUhM/hqdefault.jpg",
+      "pricePerDay": 25,
+      "count": 2
+    },
+    {
+      "brand": "Peugeot",
+      "vehicleType": "economy",
+      "fueltype": "petrol",
+      "numberOfSeats": 2,
+      "model": "206",
+      "constructionYear": "2007",
+      "picture": "https://cdn3.focus.bg/autodata/i/peugeot/206/206/large/ce3e3e487d5857df63573a00f055c6c1.jpg",
+      "pricePerDay": "15",
+      "count": 1,
+      "id": "AFKMxVE"
+    },
+    {
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/2019_BMW_740Li_Automatic_facelift_3.0.jpg",
+      "vehicleType": "luxury",
+      "fueltype": "petrol",
+      "numberOfSeats": 5,
+      "pricePerDay": "125",
+      "count": 1,
+      "brand": "BMW",
+      "model": "760Li",
+      "constructionYear": "2020",
+      "id": "pLWFh41"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "firstName": "Nikola",
+      "lastName": "Georgiev",
+      "email": "ngg@example.com",
+      "password": "nikola1234",
+      "phoneNumber": "0885651999",
+      "isAdmin": false
+    },
+    {
+      "firstName": "testuser",
+      "lastName": "testuser",
+      "email": "testuser@test.com",
+      "password": "test",
+      "phoneNumber": "0889999999",
+      "id": "PpWEwql",
+      "isAdmin": false
+    },
+    {
+      "firstName": "boss",
+      "lastName": "boss",
+      "email": "boss@boss.com",
+      "password": "boss",
+      "phoneNumber": "0889999999",
+      "id": "boss",
+      "isAdmin": true
+    },
+    {
+      "firstName": "tessst",
+      "lastName": "tessst",
+      "email": "test@abv.bg",
+      "password": "sffsddsfd",
+      "phoneNumber": "3424334",
+      "isAdmin": false,
+      "id": "WPjsp-J"
+    },
+    {
+      "firstName": "second",
+      "lastName": "boss",
+      "email": "sboss@boss.com",
+      "password": "secondboss",
+      "phoneNumber": "secondboss",
+      "isAdmin": true,
+      "id": "Qe7G-ha"
+    }
+  ],
+  "rented": [
+    {
+      "vehicle": "BMW 760Li 2020",
+      "startDateAndTime": "2021-06-05",
+      "endDateAndTime": "2021-06-11",
+      "customer": "boss",
+      "finalPrice": 712.5,
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/2019_BMW_740Li_Automatic_facelift_3.0.jpg",
+      "rentDays": 6,
+      "id": 1
+    },
+    {
+      "vehicle": "BMW 535 2015",
+      "startDateAndTime": "2021-06-05",
+      "endDateAndTime": "2021-06-12",
+      "customer": "boss",
+      "finalPrice": 166.25,
+      "picture": "https://i.ytimg.com/vi/Ke3b5-AqUhM/hqdefault.jpg",
+      "rentDays": 7,
+      "id": 2
+    }
+  ]
+}
